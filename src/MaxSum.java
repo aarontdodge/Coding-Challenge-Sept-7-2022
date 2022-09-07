@@ -1,7 +1,16 @@
+import java.util.Arrays;
+
 public class MaxSum {
 
     public static int findMaxSum(int[] arr) {
         int result = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                int arraySum = Arrays.stream(Arrays.copyOfRange(arr, i, j)).sum();
+                if (arraySum > result) result = arraySum;
+            }
+        }
 
         return result;
     }
