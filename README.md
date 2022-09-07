@@ -20,6 +20,8 @@ Here, we can see largest gap can be
 found between -3 and 7 which is 10 
 ```
 
+[See the solution here](src/LargestGap.java)
+
 ## Maximum Sum SubArray using Divide and Conquer
 
 Given an array arr[] of integers, the task is to find the maximum sum sub-array among all the possible sub-arrays.
@@ -34,3 +36,5 @@ Output: 6
 Input: arr[] = {2, 2, -2} 
 Output: 4 
 ```
+
+[See the solution here](src/MaxSum.java)
